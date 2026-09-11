@@ -7,6 +7,12 @@ public class OperatorDemo {
         System.out.println("bagi: " +(a/b));
         System.out.println("hasil bagi: "+(a%b));
 
+        int nilaiujian= 80;
+        boolean hadir =true;
+        System.out.println("lulus (>=75):" +(nilaiujian >= 75));
+        System.out.println("lulus dan hadir: " +(nilaiujian >= 75 && hadir));
+
+
 
     }
 
