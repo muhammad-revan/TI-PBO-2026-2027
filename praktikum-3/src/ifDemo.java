@@ -5,7 +5,9 @@ public class ifDemo {
         if(nilai >=75) {
             System.out.println("Anda lulus");
         }
+        System.out.println("anda tidak lulus");{
 
+        }
 
     }
 }
