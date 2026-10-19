@@ -11,10 +11,10 @@ public class Mahasiswa {
 
     }
         //constructor dengan parameter
-       public Mahasiswa(String namaAwal,String nimawal,double ipkAwal){
-        nama=namaAwal;
-        nim=nimawal;
-        ipk=ipkAwal;
+       public Mahasiswa(String nama,String nim,double ipk){
+        this.nama=nama;
+        this.nim=nim;
+        this.ipk=ipk;
 
 
        }
