@@ -3,10 +3,8 @@ public class latihanClass {
 
 
         Mahasiswa m1 =new Mahasiswa("budi","111",3.5);
-       m1.ipk =9.9;//seharrusnya tidak masuk akal,ipk maksimal 4.0
-       m1.nim ="";//nim kosong seharusnya tidak valid
-
-        System.out.println(m1.ipk);
+        System.out.println("Nama:" +m1.getnama());
+        System.out.println("IPK:" +m1.getipk());
 
 
 
