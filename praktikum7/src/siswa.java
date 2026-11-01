@@ -12,6 +12,8 @@ public class siswa {
     public void setNilai(double nilai) {
         if(nilai>=0&&nilai<=100){
             this.nilai=nilai;
+        }else{
+            System.out.println("ditolak,nilai harus rentang 0-100");
         }
 
     }

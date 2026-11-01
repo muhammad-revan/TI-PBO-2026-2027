@@ -48,7 +48,7 @@ public class produk {
 
     //method tambah stok
     public void tambahStok(int jumlah) {
-        if (stok>=0){
+        if (jumlah>=0){
             stok+=jumlah;
 
 
